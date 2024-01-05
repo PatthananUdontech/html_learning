@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TableInput</title>
+</head>
+<body>
+    <form action="https://www.youtube.com" method="get">
+    <table border="1">
+        <tr>
+            <td colspan="2" ><center>กรุณากรอกข้อมูล</center></td>
+        </tr>
+        <tr>
+            <td><label for="">user</label></td>
+            <td><input type="text"></td>
+        <tr>
+            <td><label for="">pass</label></td>
+            <td><input type="password"></td>
+        </tr>
+        </tr>
+        <tr>
+            <td><label for="">date-time</label></td>
+            <td><input type="datetime-local"></td>
+        </tr>
+        <tr>
+            <td><label for="">color</label></td>
+            <td><input type="color"></td> <!---->>
+        </tr>
+        <tr>
+            <td><label for="">งานอดิเรก</label></td>
+            <td>
+                <input type="checkbox" value="เล่นเกม">เล่นเกม
+                <input type="checkbox" value="อ่านหนังสือ">อ่านหนังสือ
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">ระดับชั้น</label></td>
+            <td>
+                <input type="radio" name="data">ปวช.
+                <input type="radio" name="data">ปวส.
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">number</label></td>
+            <td><input type="number" min="0" max="100" value="0"></td>
+        </tr>
+        <tr>
+            <td><label for="">FavGame</label></td>
+            <td>
+                <select>
+                    <option>none</option>
+                    <option>BlueArchive</option>
+                    <option>Rov</option>
+                    <option>Roblox</option>
+                    <option>Valorant</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">กรอกที่อยู่</label></td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit"><input type="reset"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
